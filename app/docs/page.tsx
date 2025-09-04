@@ -23,43 +23,7 @@ export default function DocsPage() {
         </ol>
 
         <h3 className="font-medium mt-6">Screens in the flow</h3>
-        <div className="grid gap-4 md:grid-cols-2">
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-K126ruTk9TJDATkTBiGwmAjFrccO9j.png"
-            alt="Add Widget modal basic"
-            className="rounded border"
-          />
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-OEWFW3mipR8Pwm3sladBPEP3MG9dDH.png"
-            alt="Technical requirements and bonus"
-            className="rounded border"
-          />
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-kYEzkpsC3VDvlLj2EurU6d2SQVr2FH.png"
-            alt="FAQ for API handling"
-            className="rounded border"
-          />
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pnVXSFCzmaVx9gXuuDj49LsUrn2HaS.png"
-            alt="Dashboard examples"
-            className="rounded border"
-          />
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ecnBCFqfCeW7dubfCNEx0dTcJQ3Mfs.png"
-            alt="Integration & data handling"
-            className="rounded border"
-          />
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EY2qZLfpxCQu9aNjjWt1H4QIGLtoPG.png"
-            alt="Features overview"
-            className="rounded border"
-          />
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5LXVWgBZydHtdGJbrEkcVTLRaMNgPK.png"
-            alt="Assignment cover"
-            className="rounded border"
-          />
-        </div>
+      
 
         <h2 className="text-lg font-semibold mt-10">Using Finnhub</h2>
         <p className="text-sm text-muted-foreground">
