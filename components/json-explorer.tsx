@@ -61,14 +61,14 @@ function JSONNode({
     <li className="py-0.5">
       <div className="flex items-center gap-2">
         {objectLike ? (
-          <button className="text-muted-foreground hover:underline" onClick={() => setOpen((s) => !s)}>
+          <button className="text-muted-foreground hover:underline cursor-pointer" onClick={() => setOpen((s) => !s)}>
             {open ? "▾" : "▸"}
           </button>
         ) : (
           <span className="inline-block w-3" />
         )}
         <button
-          className={cn("rounded px-1 hover:bg-muted", objectLike ? "font-medium" : "text-foreground")}
+          className={cn("rounded px-1 hover:bg-muted cursor-pointer", objectLike ? "font-medium" : "text-foreground")}
           onClick={() => onPickPath(path)}
           title={`Pick path: ${path}`}
         >
